@@ -1,0 +1,54 @@
+# env file
+.env
+.envrc
+.venv*
+venv*
+env/
+ENV/
+env.bak/
+
+# macOS display setting files
+**/.DS_Store
+
+.idea/
+.zed/
+.vs/
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Google GitHub Actions credentials files created by:
+# https://github.com/google-github-actions/auth
+#
+# That action recommends adding this gitignore to prevent accidentally committing keys.
+gha-creds-*.json
+
+# Google Cloud Platform service account key files
+amrr-382100-29e33e7c03a1.json
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Wandb directory
+wandb/
+
+*.pkl
+*.bin
+
+# Project specific files
+checkpoint.json
+eval_results.jsonl
+test-data-predictions-ref.jsonl
+temp/
+synthetic_finetuning_data.jsonl
+models/
