@@ -44,6 +44,9 @@ wandb/
 
 *.pkl
 *.bin
+*.pt
+*.gpickle
+*.csv
 
 # Project specific files
 checkpoint.json
