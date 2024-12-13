@@ -452,11 +452,11 @@ class HeteroGraphVisualizer:
         )
 
         if top_entity_degree is not None:
-            # Fraudulent transactions (class=1)
+            # Fraudulent transactions - class=1
             top_fraud_entities = self.get_top_high_degree_entities(fraud_subgraph, top_entity_degree, class_label=1)
             fraud_subgraph = self.filter_subgraph_to_top_entities(fraud_subgraph, top_fraud_entities)
 
-            # Benign transactions (class=0)
+            # Benign transactions - class=0
             top_normal_entities = self.get_top_high_degree_entities(normal_subgraph, top_entity_degree, class_label=0)
             normal_subgraph = self.filter_subgraph_to_top_entities(normal_subgraph, top_normal_entities)
 
